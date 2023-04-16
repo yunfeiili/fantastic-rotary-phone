@@ -1,0 +1,152 @@
+2022-11-06 14:16:51,422 - requestutil.py[line:27 ] - INFO: 请求的url是:http://127.0.0.1:8888/api/private/v1/login 
+2022-11-06 14:16:51,423 - requestutil.py[line:28 ] - INFO: 请求的headers是:{'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjUwMCwicmlkIjowLCJpYXQiOjE2Njc3MTU0MTEsImV4cCI6MTY2NzgwMTgxMX0.3C0m13Cr_-_3GsCVtEMkPlnneS0nzYKOuWPfCYze0lg', 'Content-Type': None, 'accept-language': 'zh-CN,zh;q=0.9', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36'} 
+2022-11-06 14:16:51,423 - requestutil.py[line:29 ] - INFO: 请求的数据是:{'username': 'admin', 'password': 123456} 
+2022-11-06 14:16:51,423 - asst.py[line:8 ] - INFO: 断言成功: 登录成功 == 登录成功 
+2022-11-06 14:16:51,510 - requestutil.py[line:27 ] - INFO: 请求的url是:http://127.0.0.1:8888/api/private/v1/login 
+2022-11-06 14:16:51,510 - requestutil.py[line:28 ] - INFO: 请求的headers是:{'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjUwMCwicmlkIjowLCJpYXQiOjE2Njc3MTU0MTEsImV4cCI6MTY2NzgwMTgxMX0.3C0m13Cr_-_3GsCVtEMkPlnneS0nzYKOuWPfCYze0lg', 'Content-Type': None, 'accept-language': 'zh-CN,zh;q=0.9', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36'} 
+2022-11-06 14:16:51,510 - requestutil.py[line:29 ] - INFO: 请求的数据是:{'username': 'admin', 'password': 123456} 
+2022-11-06 14:16:51,510 - asst.py[line:8 ] - INFO: 断言成功: 登录成功 == 登录成功 
+2022-11-06 14:18:29,377 - requestutil.py[line:27 ] - INFO: 请求的url是:http://127.0.0.1:8888/api/private/v1/login 
+2022-11-06 14:18:29,377 - requestutil.py[line:28 ] - INFO: 请求的headers是:{'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjUwMCwicmlkIjowLCJpYXQiOjE2Njc3MTU1MDksImV4cCI6MTY2NzgwMTkwOX0.iQjPLVo-a5Epn0Fuul2NqqgwPpg1-LqPqqC-FH8e8mw', 'Content-Type': None, 'accept-language': 'zh-CN,zh;q=0.9', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36'} 
+2022-11-06 14:18:29,378 - requestutil.py[line:29 ] - INFO: 请求的数据是:{'username': 'admin', 'password': 123456} 
+2022-11-06 14:18:29,378 - asst.py[line:8 ] - INFO: 断言成功: 登录成功 == 登录成功 
+2022-11-06 14:18:29,466 - requestutil.py[line:27 ] - INFO: 请求的url是:http://127.0.0.1:8888/api/private/v1/login 
+2022-11-06 14:18:29,466 - requestutil.py[line:28 ] - INFO: 请求的headers是:{'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjUwMCwicmlkIjowLCJpYXQiOjE2Njc3MTU1MDksImV4cCI6MTY2NzgwMTkwOX0.iQjPLVo-a5Epn0Fuul2NqqgwPpg1-LqPqqC-FH8e8mw', 'Content-Type': None, 'accept-language': 'zh-CN,zh;q=0.9', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36'} 
+2022-11-06 14:18:29,466 - requestutil.py[line:29 ] - INFO: 请求的数据是:{'username': 'admin', 'password': 123456} 
+2022-11-06 14:18:29,467 - asst.py[line:8 ] - INFO: 断言成功: 登录成功 == 登录成功 
+2022-11-06 14:25:41,154 - requestutil.py[line:27 ] - INFO: 请求的url是:http://127.0.0.1:8888/api/private/v1/login 
+2022-11-06 14:25:41,154 - requestutil.py[line:28 ] - INFO: 请求的headers是:{'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjUwMCwicmlkIjowLCJpYXQiOjE2Njc3MTU5NDEsImV4cCI6MTY2NzgwMjM0MX0.ibJqNsQAW3gEXFbrfFCIzf93wJ8O8LOyNShDsWOn0OQ', 'Content-Type': None, 'accept-language': 'zh-CN,zh;q=0.9', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36'} 
+2022-11-06 14:25:41,154 - requestutil.py[line:29 ] - INFO: 请求的数据是:{'username': 'admin', 'password': 123456} 
+2022-11-06 14:25:41,155 - asst.py[line:8 ] - INFO: 断言成功: 登录成功 == 登录成功 
+2022-11-06 14:25:41,482 - requestutil.py[line:27 ] - INFO: 请求的url是:http://127.0.0.1:8888/api/private/v1/login 
+2022-11-06 14:25:41,483 - requestutil.py[line:28 ] - INFO: 请求的headers是:{'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjUwMCwicmlkIjowLCJpYXQiOjE2Njc3MTU5NDEsImV4cCI6MTY2NzgwMjM0MX0.ibJqNsQAW3gEXFbrfFCIzf93wJ8O8LOyNShDsWOn0OQ', 'Content-Type': None, 'accept-language': 'zh-CN,zh;q=0.9', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36'} 
+2022-11-06 14:25:41,483 - requestutil.py[line:29 ] - INFO: 请求的数据是:{'username': 'admin', 'password': 123456} 
+2022-11-06 14:25:41,483 - asst.py[line:8 ] - INFO: 断言成功: 登录成功 == 登录成功 
+2022-11-06 14:29:02,292 - requestutil.py[line:27 ] - INFO: 请求的url是:http://127.0.0.1:8888/api/private/v1/login 
+2022-11-06 14:29:02,292 - requestutil.py[line:28 ] - INFO: 请求的headers是:{'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjUwMCwicmlkIjowLCJpYXQiOjE2Njc3MTYxNDIsImV4cCI6MTY2NzgwMjU0Mn0.FUzQseiE68XkvSfI37zf8mvKIaCMHFTjOAw86oLLJQk', 'Content-Type': None, 'accept-language': 'zh-CN,zh;q=0.9', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36'} 
+2022-11-06 14:29:02,293 - requestutil.py[line:29 ] - INFO: 请求的数据是:{'username': 'admin', 'password': 123456} 
+2022-11-06 14:29:02,293 - asst.py[line:8 ] - INFO: 断言成功: 登录成功 == 登录成功 
+2022-11-06 14:29:02,380 - requestutil.py[line:27 ] - INFO: 请求的url是:http://127.0.0.1:8888/api/private/v1/login 
+2022-11-06 14:29:02,381 - requestutil.py[line:28 ] - INFO: 请求的headers是:{'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjUwMCwicmlkIjowLCJpYXQiOjE2Njc3MTYxNDIsImV4cCI6MTY2NzgwMjU0Mn0.FUzQseiE68XkvSfI37zf8mvKIaCMHFTjOAw86oLLJQk', 'Content-Type': None, 'accept-language': 'zh-CN,zh;q=0.9', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36'} 
+2022-11-06 14:29:02,381 - requestutil.py[line:29 ] - INFO: 请求的数据是:{'username': 'admin', 'password': 123456} 
+2022-11-06 14:29:02,381 - asst.py[line:8 ] - INFO: 断言成功: 登录成功 == 登录成功 
+2022-11-06 14:31:01,954 - requestutil.py[line:27 ] - INFO: 请求的url是:http://127.0.0.1:8888/api/private/v1/login 
+2022-11-06 14:31:01,955 - requestutil.py[line:28 ] - INFO: 请求的headers是:{'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjUwMCwicmlkIjowLCJpYXQiOjE2Njc3MTYyNjEsImV4cCI6MTY2NzgwMjY2MX0.B2Cub98KNR2RhhH5Kvzz4DwcXE0qRuu41O5A6E3GOY8', 'Content-Type': None, 'accept-language': 'zh-CN,zh;q=0.9', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36'} 
+2022-11-06 14:31:01,955 - requestutil.py[line:29 ] - INFO: 请求的数据是:{'username': 'admin', 'password': 123456} 
+2022-11-06 14:31:01,955 - asst.py[line:8 ] - INFO: 断言成功: 登录成功 == 登录成功 
+2022-11-06 14:31:02,044 - requestutil.py[line:27 ] - INFO: 请求的url是:http://127.0.0.1:8888/api/private/v1/login 
+2022-11-06 14:31:02,044 - requestutil.py[line:28 ] - INFO: 请求的headers是:{'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjUwMCwicmlkIjowLCJpYXQiOjE2Njc3MTYyNjEsImV4cCI6MTY2NzgwMjY2MX0.B2Cub98KNR2RhhH5Kvzz4DwcXE0qRuu41O5A6E3GOY8', 'Content-Type': None, 'accept-language': 'zh-CN,zh;q=0.9', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36'} 
+2022-11-06 14:31:02,044 - requestutil.py[line:29 ] - INFO: 请求的数据是:{'username': 'admin', 'password': 123456} 
+2022-11-06 14:31:02,044 - asst.py[line:8 ] - INFO: 断言成功: 登录成功 == 登录成功 
+2022-11-06 14:44:27,364 - requestutil.py[line:27 ] - INFO: 请求的url是:http://127.0.0.1:8888/api/private/v1/login 
+2022-11-06 14:44:27,364 - requestutil.py[line:28 ] - INFO: 请求的headers是:{'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjUwMCwicmlkIjowLCJpYXQiOjE2Njc3MTcwNjcsImV4cCI6MTY2NzgwMzQ2N30.Nd_i3tw_3zQEaJc07QNMO4SWUHeT1B7B7D62suNWGxs', 'Content-Type': None, 'accept-language': 'zh-CN,zh;q=0.9', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36'} 
+2022-11-06 14:44:27,364 - requestutil.py[line:29 ] - INFO: 请求的数据是:{'username': 'admin', 'password': 123456} 
+2022-11-06 14:44:27,365 - asst.py[line:8 ] - INFO: 断言成功: 登录成功 == 登录成功 
+2022-11-06 14:44:27,453 - requestutil.py[line:27 ] - INFO: 请求的url是:http://127.0.0.1:8888/api/private/v1/login 
+2022-11-06 14:44:27,453 - requestutil.py[line:28 ] - INFO: 请求的headers是:{'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjUwMCwicmlkIjowLCJpYXQiOjE2Njc3MTcwNjcsImV4cCI6MTY2NzgwMzQ2N30.Nd_i3tw_3zQEaJc07QNMO4SWUHeT1B7B7D62suNWGxs', 'Content-Type': None, 'accept-language': 'zh-CN,zh;q=0.9', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36'} 
+2022-11-06 14:44:27,453 - requestutil.py[line:29 ] - INFO: 请求的数据是:{'username': 'admin', 'password': 123456} 
+2022-11-06 14:44:27,454 - asst.py[line:8 ] - INFO: 断言成功: 登录成功 == 登录成功 
+2022-11-06 18:59:16,033 - requestutil.py[line:27 ] - INFO: 请求的url是:http://127.0.0.1:8888/api/private/v1/login 
+2022-11-06 18:59:16,033 - requestutil.py[line:28 ] - INFO: 请求的headers是:{'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjUwMCwicmlkIjowLCJpYXQiOjE2Njc3MzIzNTUsImV4cCI6MTY2NzgxODc1NX0.dbjaD698CSjpnrqxXZfu02kAozqHIpeg0ayV2oAm428', 'Content-Type': None, 'accept-language': 'zh-CN,zh;q=0.9', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36'} 
+2022-11-06 18:59:16,034 - requestutil.py[line:29 ] - INFO: 请求的数据是:{'username': 'admin', 'password': 123456} 
+2022-11-06 18:59:16,034 - asst.py[line:8 ] - INFO: 断言成功: 登录成功 == 登录成功 
+2022-11-06 18:59:16,128 - requestutil.py[line:27 ] - INFO: 请求的url是:http://127.0.0.1:8888/api/private/v1/login 
+2022-11-06 18:59:16,128 - requestutil.py[line:28 ] - INFO: 请求的headers是:{'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjUwMCwicmlkIjowLCJpYXQiOjE2Njc3MzIzNTUsImV4cCI6MTY2NzgxODc1NX0.dbjaD698CSjpnrqxXZfu02kAozqHIpeg0ayV2oAm428', 'Content-Type': None, 'accept-language': 'zh-CN,zh;q=0.9', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36'} 
+2022-11-06 18:59:16,128 - requestutil.py[line:29 ] - INFO: 请求的数据是:{'username': 'admin', 'password': 123456} 
+2022-11-06 18:59:16,128 - asst.py[line:8 ] - INFO: 断言成功: 登录成功 == 登录成功 
+2022-11-06 19:02:10,969 - requestutil.py[line:27 ] - INFO: 请求的url是:http://127.0.0.1:8888/api/private/v1/login 
+2022-11-06 19:02:10,970 - requestutil.py[line:28 ] - INFO: 请求的headers是:{'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjUwMCwicmlkIjowLCJpYXQiOjE2Njc3MzI1MzAsImV4cCI6MTY2NzgxODkzMH0.almxFIjlGjZ2j0VYi4lsYOj6iWJ5jufv1BawfEBWayc', 'Content-Type': None, 'accept-language': 'zh-CN,zh;q=0.9', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36'} 
+2022-11-06 19:02:10,970 - requestutil.py[line:29 ] - INFO: 请求的数据是:{'username': 'admin', 'password': 123456} 
+2022-11-06 19:02:10,973 - asst.py[line:8 ] - INFO: 断言成功: 登录成功 == 登录成功 
+2022-11-06 19:02:11,062 - requestutil.py[line:27 ] - INFO: 请求的url是:http://127.0.0.1:8888/api/private/v1/login 
+2022-11-06 19:02:11,062 - requestutil.py[line:28 ] - INFO: 请求的headers是:{'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjUwMCwicmlkIjowLCJpYXQiOjE2Njc3MzI1MzAsImV4cCI6MTY2NzgxODkzMH0.almxFIjlGjZ2j0VYi4lsYOj6iWJ5jufv1BawfEBWayc', 'Content-Type': None, 'accept-language': 'zh-CN,zh;q=0.9', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36'} 
+2022-11-06 19:02:11,062 - requestutil.py[line:29 ] - INFO: 请求的数据是:{'username': 'admin', 'password': 123456} 
+2022-11-06 19:02:11,063 - asst.py[line:8 ] - INFO: 断言成功: 登录成功 == 登录成功 
+2022-11-06 19:02:25,011 - requestutil.py[line:27 ] - INFO: 请求的url是:http://127.0.0.1:8888/api/private/v1/login 
+2022-11-06 19:02:25,011 - requestutil.py[line:28 ] - INFO: 请求的headers是:{'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjUwMCwicmlkIjowLCJpYXQiOjE2Njc3MzI1NDQsImV4cCI6MTY2NzgxODk0NH0.vtxoXShGtV5qsUGIUYfl4sX7FxJd4uOqpcALk4q5OoI', 'Content-Type': None, 'accept-language': 'zh-CN,zh;q=0.9', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36'} 
+2022-11-06 19:02:25,011 - requestutil.py[line:29 ] - INFO: 请求的数据是:{'username': 'admin', 'password': 123456} 
+2022-11-06 19:02:25,012 - asst.py[line:8 ] - INFO: 断言成功: 登录成功 == 登录成功 
+2022-11-06 19:02:25,102 - requestutil.py[line:27 ] - INFO: 请求的url是:http://127.0.0.1:8888/api/private/v1/login 
+2022-11-06 19:02:25,102 - requestutil.py[line:28 ] - INFO: 请求的headers是:{'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjUwMCwicmlkIjowLCJpYXQiOjE2Njc3MzI1NDQsImV4cCI6MTY2NzgxODk0NH0.vtxoXShGtV5qsUGIUYfl4sX7FxJd4uOqpcALk4q5OoI', 'Content-Type': None, 'accept-language': 'zh-CN,zh;q=0.9', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36'} 
+2022-11-06 19:02:25,103 - requestutil.py[line:29 ] - INFO: 请求的数据是:{'username': 'admin', 'password': 123456} 
+2022-11-06 19:02:25,103 - asst.py[line:8 ] - INFO: 断言成功: 登录成功 == 登录成功 
+2022-11-06 19:02:48,093 - requestutil.py[line:27 ] - INFO: 请求的url是:http://127.0.0.1:8888/api/private/v1/login 
+2022-11-06 19:02:48,093 - requestutil.py[line:28 ] - INFO: 请求的headers是:{'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjUwMCwicmlkIjowLCJpYXQiOjE2Njc3MzI1NjgsImV4cCI6MTY2NzgxODk2OH0.2KyFAr3GfXVNXh85aXbAACGa-HO6CfqCRQnDAjOFF9o', 'Content-Type': None, 'accept-language': 'zh-CN,zh;q=0.9', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36'} 
+2022-11-06 19:02:48,094 - requestutil.py[line:29 ] - INFO: 请求的数据是:{'username': 'admin', 'password': 123456} 
+2022-11-06 19:02:48,096 - asst.py[line:8 ] - INFO: 断言成功: 登录成功 == 登录成功 
+2022-11-06 19:02:48,184 - requestutil.py[line:27 ] - INFO: 请求的url是:http://127.0.0.1:8888/api/private/v1/login 
+2022-11-06 19:02:48,185 - requestutil.py[line:28 ] - INFO: 请求的headers是:{'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjUwMCwicmlkIjowLCJpYXQiOjE2Njc3MzI1NjgsImV4cCI6MTY2NzgxODk2OH0.2KyFAr3GfXVNXh85aXbAACGa-HO6CfqCRQnDAjOFF9o', 'Content-Type': None, 'accept-language': 'zh-CN,zh;q=0.9', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36'} 
+2022-11-06 19:02:48,185 - requestutil.py[line:29 ] - INFO: 请求的数据是:{'username': 'admin', 'password': 123456} 
+2022-11-06 19:02:48,185 - asst.py[line:8 ] - INFO: 断言成功: 登录成功 == 登录成功 
+2022-11-06 19:11:16,953 - requestutil.py[line:27 ] - INFO: 请求的url是:http://127.0.0.1:8888/api/private/v1/login 
+2022-11-06 19:11:16,954 - requestutil.py[line:28 ] - INFO: 请求的headers是:{'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjUwMCwicmlkIjowLCJpYXQiOjE2Njc3MzMwNzYsImV4cCI6MTY2NzgxOTQ3Nn0.8c8mv1FV2iSFY2DpWP-7N0rOm_ZFgEdXB8TZj0tmc6M', 'Content-Type': None, 'accept-language': 'zh-CN,zh;q=0.9', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36'} 
+2022-11-06 19:11:16,954 - requestutil.py[line:29 ] - INFO: 请求的数据是:{'username': 'admin', 'password': 123456} 
+2022-11-06 19:11:16,954 - asst.py[line:8 ] - INFO: 断言成功: 登录成功 == 登录成功 
+2022-11-06 19:11:17,045 - requestutil.py[line:27 ] - INFO: 请求的url是:http://127.0.0.1:8888/api/private/v1/login 
+2022-11-06 19:11:17,045 - requestutil.py[line:28 ] - INFO: 请求的headers是:{'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjUwMCwicmlkIjowLCJpYXQiOjE2Njc3MzMwNzYsImV4cCI6MTY2NzgxOTQ3Nn0.8c8mv1FV2iSFY2DpWP-7N0rOm_ZFgEdXB8TZj0tmc6M', 'Content-Type': None, 'accept-language': 'zh-CN,zh;q=0.9', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36'} 
+2022-11-06 19:11:17,045 - requestutil.py[line:29 ] - INFO: 请求的数据是:{'username': 'admin', 'password': 123456} 
+2022-11-06 19:11:17,045 - asst.py[line:8 ] - INFO: 断言成功: 登录成功 == 登录成功 
+2022-11-06 19:12:08,443 - requestutil.py[line:27 ] - INFO: 请求的url是:http://127.0.0.1:8888/api/private/v1/login 
+2022-11-06 19:12:08,444 - requestutil.py[line:28 ] - INFO: 请求的headers是:{'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjUwMCwicmlkIjowLCJpYXQiOjE2Njc3MzMxMjgsImV4cCI6MTY2NzgxOTUyOH0.uF1jeJAP2Dqlbl-Ln77LmNb-N_xBH-9nFhJvFLzh_0Y', 'Content-Type': None, 'accept-language': 'zh-CN,zh;q=0.9', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36'} 
+2022-11-06 19:12:08,444 - requestutil.py[line:29 ] - INFO: 请求的数据是:{'username': 'admin', 'password': 123456} 
+2022-11-06 19:12:08,444 - asst.py[line:8 ] - INFO: 断言成功: 登录成功 == 登录成功 
+2022-11-06 19:12:08,534 - requestutil.py[line:27 ] - INFO: 请求的url是:http://127.0.0.1:8888/api/private/v1/login 
+2022-11-06 19:12:08,534 - requestutil.py[line:28 ] - INFO: 请求的headers是:{'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjUwMCwicmlkIjowLCJpYXQiOjE2Njc3MzMxMjgsImV4cCI6MTY2NzgxOTUyOH0.uF1jeJAP2Dqlbl-Ln77LmNb-N_xBH-9nFhJvFLzh_0Y', 'Content-Type': None, 'accept-language': 'zh-CN,zh;q=0.9', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36'} 
+2022-11-06 19:12:08,534 - requestutil.py[line:29 ] - INFO: 请求的数据是:{'username': 'admin', 'password': 123456} 
+2022-11-06 19:12:08,535 - asst.py[line:8 ] - INFO: 断言成功: 登录成功 == 登录成功 
+2022-11-06 19:14:43,903 - requestutil.py[line:27 ] - INFO: 请求的url是:http://127.0.0.1:8888/api/private/v1/login 
+2022-11-06 19:14:43,903 - requestutil.py[line:28 ] - INFO: 请求的headers是:{'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjUwMCwicmlkIjowLCJpYXQiOjE2Njc3MzMyODMsImV4cCI6MTY2NzgxOTY4M30.re_9Y9KXm93UtlaRHIk2vJRWOG0P6TJP8Sii8aQ_88A', 'Content-Type': None, 'accept-language': 'zh-CN,zh;q=0.9', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36'} 
+2022-11-06 19:14:43,903 - requestutil.py[line:29 ] - INFO: 请求的数据是:{'username': 'admin', 'password': 123456} 
+2022-11-06 19:14:43,904 - asst.py[line:8 ] - INFO: 断言成功: 登录成功 == 登录成功 
+2022-11-06 19:14:43,994 - requestutil.py[line:27 ] - INFO: 请求的url是:http://127.0.0.1:8888/api/private/v1/login 
+2022-11-06 19:14:43,994 - requestutil.py[line:28 ] - INFO: 请求的headers是:{'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjUwMCwicmlkIjowLCJpYXQiOjE2Njc3MzMyODMsImV4cCI6MTY2NzgxOTY4M30.re_9Y9KXm93UtlaRHIk2vJRWOG0P6TJP8Sii8aQ_88A', 'Content-Type': None, 'accept-language': 'zh-CN,zh;q=0.9', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36'} 
+2022-11-06 19:14:43,995 - requestutil.py[line:29 ] - INFO: 请求的数据是:{'username': 'admin', 'password': 123456} 
+2022-11-06 19:14:43,995 - asst.py[line:8 ] - INFO: 断言成功: 登录成功 == 登录成功 
+2022-11-06 19:16:51,737 - requestutil.py[line:27 ] - INFO: 请求的url是:http://127.0.0.1:8888/api/private/v1/login 
+2022-11-06 19:16:51,738 - requestutil.py[line:28 ] - INFO: 请求的headers是:{'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjUwMCwicmlkIjowLCJpYXQiOjE2Njc3MzM0MTEsImV4cCI6MTY2NzgxOTgxMX0.FYVXiqJ-qc4JTDbWbXHzV8l46sKHtkNlPINkK6zeJqM', 'Content-Type': None, 'accept-language': 'zh-CN,zh;q=0.9', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36'} 
+2022-11-06 19:16:51,738 - requestutil.py[line:29 ] - INFO: 请求的数据是:{'username': 'admin', 'password': 123456} 
+2022-11-06 19:16:51,738 - asst.py[line:8 ] - INFO: 断言成功: 登录成功 == 登录成功 
+2022-11-06 19:16:51,828 - requestutil.py[line:27 ] - INFO: 请求的url是:http://127.0.0.1:8888/api/private/v1/login 
+2022-11-06 19:16:51,828 - requestutil.py[line:28 ] - INFO: 请求的headers是:{'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjUwMCwicmlkIjowLCJpYXQiOjE2Njc3MzM0MTEsImV4cCI6MTY2NzgxOTgxMX0.FYVXiqJ-qc4JTDbWbXHzV8l46sKHtkNlPINkK6zeJqM', 'Content-Type': None, 'accept-language': 'zh-CN,zh;q=0.9', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36'} 
+2022-11-06 19:16:51,829 - requestutil.py[line:29 ] - INFO: 请求的数据是:{'username': 'admin', 'password': 123456} 
+2022-11-06 19:16:51,829 - asst.py[line:8 ] - INFO: 断言成功: 登录成功 == 登录成功 
+2022-11-06 19:17:05,220 - requestutil.py[line:27 ] - INFO: 请求的url是:http://127.0.0.1:8888/api/private/v1/login 
+2022-11-06 19:17:05,220 - requestutil.py[line:28 ] - INFO: 请求的headers是:{'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjUwMCwicmlkIjowLCJpYXQiOjE2Njc3MzM0MjUsImV4cCI6MTY2NzgxOTgyNX0.Cy42TwQGQbs9Tb5qqSjoV5VxTYBX2Wj7TaMUSwm5SWc', 'Content-Type': None, 'accept-language': 'zh-CN,zh;q=0.9', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36'} 
+2022-11-06 19:17:05,221 - requestutil.py[line:29 ] - INFO: 请求的数据是:{'username': 'admin', 'password': 123456} 
+2022-11-06 19:17:05,221 - asst.py[line:8 ] - INFO: 断言成功: 登录成功 == 登录成功 
+2022-11-06 19:17:05,311 - requestutil.py[line:27 ] - INFO: 请求的url是:http://127.0.0.1:8888/api/private/v1/login 
+2022-11-06 19:17:05,311 - requestutil.py[line:28 ] - INFO: 请求的headers是:{'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjUwMCwicmlkIjowLCJpYXQiOjE2Njc3MzM0MjUsImV4cCI6MTY2NzgxOTgyNX0.Cy42TwQGQbs9Tb5qqSjoV5VxTYBX2Wj7TaMUSwm5SWc', 'Content-Type': None, 'accept-language': 'zh-CN,zh;q=0.9', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36'} 
+2022-11-06 19:17:05,311 - requestutil.py[line:29 ] - INFO: 请求的数据是:{'username': 'admin', 'password': 123456} 
+2022-11-06 19:17:05,312 - asst.py[line:8 ] - INFO: 断言成功: 登录成功 == 登录成功 
+2022-11-06 19:24:35,763 - requestutil.py[line:27 ] - INFO: 请求的url是:http://127.0.0.1:8888/api/private/v1/login 
+2022-11-06 19:24:35,764 - requestutil.py[line:28 ] - INFO: 请求的headers是:{'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjUwMCwicmlkIjowLCJpYXQiOjE2Njc3MzM4NzUsImV4cCI6MTY2NzgyMDI3NX0.spW3GcSw06dqnOJD_XRIQSYXJv_fTR1UNNxWIQjSFhc', 'Content-Type': None, 'accept-language': 'zh-CN,zh;q=0.9', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36'} 
+2022-11-06 19:24:35,764 - requestutil.py[line:29 ] - INFO: 请求的数据是:{'username': 'admin', 'password': 123456} 
+2022-11-06 19:24:35,764 - asst.py[line:8 ] - INFO: 断言成功: 登录成功 == 登录成功 
+2022-11-06 19:24:35,856 - requestutil.py[line:27 ] - INFO: 请求的url是:http://127.0.0.1:8888/api/private/v1/login 
+2022-11-06 19:24:35,857 - requestutil.py[line:28 ] - INFO: 请求的headers是:{'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjUwMCwicmlkIjowLCJpYXQiOjE2Njc3MzM4NzUsImV4cCI6MTY2NzgyMDI3NX0.spW3GcSw06dqnOJD_XRIQSYXJv_fTR1UNNxWIQjSFhc', 'Content-Type': None, 'accept-language': 'zh-CN,zh;q=0.9', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36'} 
+2022-11-06 19:24:35,857 - requestutil.py[line:29 ] - INFO: 请求的数据是:{'username': 'admin', 'password': 123456} 
+2022-11-06 19:24:35,857 - asst.py[line:8 ] - INFO: 断言成功: 登录成功 == 登录成功 
+2022-11-06 19:24:49,551 - requestutil.py[line:27 ] - INFO: 请求的url是:http://127.0.0.1:8888/api/private/v1/login 
+2022-11-06 19:24:49,551 - requestutil.py[line:28 ] - INFO: 请求的headers是:{'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjUwMCwicmlkIjowLCJpYXQiOjE2Njc3MzM4ODksImV4cCI6MTY2NzgyMDI4OX0.qYDKaeg8xi2xfINNiyD87Lf7-X0ukACO-hcc_jorqFA', 'Content-Type': None, 'accept-language': 'zh-CN,zh;q=0.9', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36'} 
+2022-11-06 19:24:49,551 - requestutil.py[line:29 ] - INFO: 请求的数据是:{'username': 'admin', 'password': 123456} 
+2022-11-06 19:24:49,552 - asst.py[line:8 ] - INFO: 断言成功: 登录成功 == 登录成功 
+2022-11-06 19:24:49,645 - requestutil.py[line:27 ] - INFO: 请求的url是:http://127.0.0.1:8888/api/private/v1/login 
+2022-11-06 19:24:49,645 - requestutil.py[line:28 ] - INFO: 请求的headers是:{'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjUwMCwicmlkIjowLCJpYXQiOjE2Njc3MzM4ODksImV4cCI6MTY2NzgyMDI4OX0.qYDKaeg8xi2xfINNiyD87Lf7-X0ukACO-hcc_jorqFA', 'Content-Type': None, 'accept-language': 'zh-CN,zh;q=0.9', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36'} 
+2022-11-06 19:24:49,645 - requestutil.py[line:29 ] - INFO: 请求的数据是:{'username': 'admin', 'password': 123456} 
+2022-11-06 19:24:49,646 - asst.py[line:8 ] - INFO: 断言成功: 登录成功 == 登录成功 
+2022-11-06 19:25:31,811 - requestutil.py[line:27 ] - INFO: 请求的url是:http://127.0.0.1:8888/api/private/v1/login 
+2022-11-06 19:25:31,812 - requestutil.py[line:28 ] - INFO: 请求的headers是:{'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjUwMCwicmlkIjowLCJpYXQiOjE2Njc3MzM5MzEsImV4cCI6MTY2NzgyMDMzMX0.GU6YhWhmHWejgk_qtAVQs1MjTRVbXTVg7MrSG-gu2ww', 'Content-Type': None, 'accept-language': 'zh-CN,zh;q=0.9', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36'} 
+2022-11-06 19:25:31,812 - requestutil.py[line:29 ] - INFO: 请求的数据是:{'username': 'admin', 'password': 123456} 
+2022-11-06 19:25:31,812 - asst.py[line:8 ] - INFO: 断言成功: 登录成功 == 登录成功 
+2022-11-06 19:25:31,902 - requestutil.py[line:27 ] - INFO: 请求的url是:http://127.0.0.1:8888/api/private/v1/login 
+2022-11-06 19:25:31,902 - requestutil.py[line:28 ] - INFO: 请求的headers是:{'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjUwMCwicmlkIjowLCJpYXQiOjE2Njc3MzM5MzEsImV4cCI6MTY2NzgyMDMzMX0.GU6YhWhmHWejgk_qtAVQs1MjTRVbXTVg7MrSG-gu2ww', 'Content-Type': None, 'accept-language': 'zh-CN,zh;q=0.9', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36'} 
+2022-11-06 19:25:31,903 - requestutil.py[line:29 ] - INFO: 请求的数据是:{'username': 'admin', 'password': 123456} 
+2022-11-06 19:25:31,903 - asst.py[line:8 ] - INFO: 断言成功: 登录成功 == 登录成功 
+2022-11-06 19:28:22,372 - requestutil.py[line:27 ] - INFO: 请求的url是:http://127.0.0.1:8888/api/private/v1/login 
+2022-11-06 19:28:22,372 - requestutil.py[line:28 ] - INFO: 请求的headers是:{'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjUwMCwicmlkIjowLCJpYXQiOjE2Njc3MzQxMDIsImV4cCI6MTY2NzgyMDUwMn0.7SV3U5BuVhk3_yD2-_GrZf3rZa1IYLAwyMkBnaeUBUs', 'Content-Type': None, 'accept-language': 'zh-CN,zh;q=0.9', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36'} 
+2022-11-06 19:28:22,373 - requestutil.py[line:29 ] - INFO: 请求的数据是:{'username': 'admin', 'password': 123456} 
+2022-11-06 19:28:22,373 - asst.py[line:8 ] - INFO: 断言成功: 登录成功 == 登录成功 
+2022-11-06 19:28:22,467 - requestutil.py[line:27 ] - INFO: 请求的url是:http://127.0.0.1:8888/api/private/v1/login 
+2022-11-06 19:28:22,467 - requestutil.py[line:28 ] - INFO: 请求的headers是:{'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjUwMCwicmlkIjowLCJpYXQiOjE2Njc3MzQxMDIsImV4cCI6MTY2NzgyMDUwMn0.7SV3U5BuVhk3_yD2-_GrZf3rZa1IYLAwyMkBnaeUBUs', 'Content-Type': None, 'accept-language': 'zh-CN,zh;q=0.9', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36'} 
+2022-11-06 19:28:22,467 - requestutil.py[line:29 ] - INFO: 请求的数据是:{'username': 'admin', 'password': 123456} 
+2022-11-06 19:28:22,468 - asst.py[line:8 ] - INFO: 断言成功: 登录成功 == 登录成功 

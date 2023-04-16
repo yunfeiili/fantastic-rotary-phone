@@ -1,0 +1,14 @@
+﻿.side-nav__brand {
+  background: url('https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fc-ssl.duitang.com%2Fuploads%2Fitem%2F201507%2F08%2F20150708180900_m8MXr.jpeg&refer=http%3A%2F%2Fc-ssl.duitang.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1662965446&t=e757da4526cdf391f3ff16182377f9f8') no-repeat left center !important;
+  margin-left: 10px;
+  height: 65px;
+  background-size: contain !important;
+}
+.side-nav__brand span{
+	display: none;
+}
+.side-nav__brand:after{
+	content: "李云飞";
+	margin-left: 20px;
+ 
+}
