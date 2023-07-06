@@ -1,5 +1,5 @@
 
-import pymysql,random
+import pymysql
 
 from common.setting import DB_CONFIG
 from utils.logutil import logger

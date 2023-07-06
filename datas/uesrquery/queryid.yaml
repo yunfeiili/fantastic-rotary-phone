@@ -1,0 +1,9 @@
+-
+  case_name: 用户查询接口
+  method: get
+  is_run:
+  path: /api/private/v1/users/{{get_userid()}}
+  data:
+    id: {{get_userid()}}
+  result:
+    msg: 获取成功

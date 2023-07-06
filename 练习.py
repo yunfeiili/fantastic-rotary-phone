@@ -1,102 +1,127 @@
+# import requests
+#
+# from config.read_environment import *
+#
+# url = "http://127.0.0.1:8888/api/private/v1/users/500"
+# params = {'id': None}
+# headers= get_headers()
+# re = requests.get(url=url, params=params,headers=headers)
+# print(re.text)
+
+from utils.logutil import *
+
+
+
+import os
+import jinja2
+import importlib
+import inspect
+from common.setting import ensure_path_sep
+import yaml
+
+
+def render(tpl_path, **kwargs):
+    """渲染yml文件"""
+    path, filename = os.path.split(tpl_path)
+    return jinja2.Environment(loader=jinja2.FileSystemLoader(path or './')
+                              ).get_template(filename).render(**kwargs)
+
+def all_functions():
+    """加载randoms.py模块"""
+    debug_module = importlib.import_module('.debug',package='common')
+    all_function = inspect.getmembers(debug_module, inspect.isfunction)
+    return dict(all_function)
+
+
+def read_case(path):
+    '''
+    执行is_run不为false的用例
+    :param path: 测试用例的路劲
+    :return: 返回is_run需要执行的用例数列表
+    '''
+    cases = yaml.safe_load(render(ensure_path_sep(path),**all_functions()))
+    case_data=[]
+    for case in cases:
+        try:
+            if case.get('is_run') != False:
+                if case["method"]:
+                    pass
+                    if case["path"]:
+                        pass
+                case_data.append(case)
+        except:
+            logger.error("该用例缺少请求方发或者缺少请求地址")
+    return case_data
+
+
+
+# if __name__ == '__main__':
+#     a = read_case('\datas\logon.yaml')
+#     # YamlCaseName = a.get('case_name')
+#     print( a)
+
+
+
 import json
 import random
-import string
+import time
+import os
 
 import jsonpath
-from faker import Faker
+import requests
+from pywinauto.keyboard import send_keys  # 键盘
 
-from utils.mysqlutil import mysqlutil, sql
+def read_txt(path):
+    with open(path,mode="r",encoding="utf_8") as f:
+        value = f.readlines()
+        return random.choice(value)
+def get_txt():
 
-faker = Faker('zh_CN')
-'''
-zh_CN（简体中文）、zh_TW（繁体中文）、zh_TW（台湾）、en_US（美国英文）、en_GB（英国英文）、de_DE（德文）、ja_JP（日文）、ko_KR（韩文）、fr_FR（法文）
-'''
-def get_random():
-    """生成一串6位数的字符+数组混合的字符串"""
-    number = string.ascii_letters + string.digits
-    number_n = ''.join(random.sample(number, 6))
-    return number_n
-
-
-
-def create_string_number(n=9):
-    """生成一串指定位数的字符+数组混合的字符串"""
-    m = random.randint(1, n)
-    a = "".join([str(random.randint(0, 9)) for _ in range(m)])
-    b = "".join([random.choice(string.ascii_letters) for _ in range(n - m)])
-    return ''.join(random.sample(list(a + b), n))
-
-def rand_str():
-    ''' 随机生成1000000到2000000数据 '''
-    return str(random.randint(1000000, 2000000))
-
-def  numbers():
-    '''生成随机的电话号码 '''
-    q = [134,133,135,136,137,138,139,150,151,152,157,158,159,182,183,
-    184,187,188,147,178,130,131,132,155,156,145,185,186,176,175,
-    133,153,180,181,189,177,173,149]
-    e = random.choice(q)
-    w = int(''.join(random.sample(string.digits,8)))
-    return '{}{}'.format(e,w)
+    url = "https://v1.hitokoto.cn/"
+    res = requests.get(url=url)
+    a = json.loads(res.text)
+    b = jsonpath.jsonpath(a,"$..{}".format("hitokoto"))
+    return b[0]
 
 
 
-def get_name():
-    '''
-    :return: 随机生成一个中文名称
-    '''
-    return faker.name()
-
-def get_email():
-    '''
-
-    :return: 随机获取电子邮箱
-    '''
-    return faker.email()
-
-def get_text():
-    '''
-
-    :return: 随机获取一段文本
-    '''
-    return faker.text()
 
 
-def get_phone():
-    '''
-    :return: 返回随机的手机号
-    '''
-    return faker.phone_number()
+while True:
+    time_now = time.strftime("%H:%M", time.localtime())  # 获取当前时间
+    sent_time = time.strftime("14:04", time.localtime())  # 发送时间（这里自己定时间）
+    if time_now != sent_time:  # 当前时间等于发送时间则执行以下程序
+        def open_app(app_dir):
+            os.startfile(app_dir)
 
 
-    # 获取指定内容
-def get_response_text(res,key):
-    '''
-    获取文本中指定的内容
-    :param res: 文本
-    :param key: 取对应的value值
-    :return:
-    '''
-    try:
-        text = json.loads(res)
-        value = jsonpath.jsonpath(text,'$..{}'.format(key))
-        if value:
-            if len(value) == 1:
-                return value[0]
-            return value
-        return value
-    except:
-        return None
+        # 打开微信
+        if __name__ == "__main__":
+            app_dir = r'D:\WeChat\WeChat.exe'  # 此处为微信的绝对路径
+            open_app(app_dir)
+            time.sleep(1)
+
+        # 进入微信，模拟按键Ctrl+F
+        send_keys('^f')
+        send_keys('小号')
+        time.sleep(1)
+        send_keys('{ENTER}')  # 回车键必须全部大小
+        for i in range(10):
+        # 需要发送的消息内容
+            message = get_txt()
+            time.sleep(1)
+
+        # 输入聊天内容
+            send_keys(message)
+        # 回车发送消息
+            send_keys('{ENTER}')
+
+        time.sleep(3)
+        print('退出~~~')
+
+        exit()  # 退出程序
+    else:
+        print("不在当前时间")
+        exit()  # 退出程序
 
 
-def get_userid():
-    '''
-    获取数据库中用户id
-    :return:
-    '''
-    u_is = []
-    for i in mysqlutil.getList(sql):
-        if i[0] !=500:
-            u_is.append(i[0])
-    a = random.choice(u_is)
-    return a

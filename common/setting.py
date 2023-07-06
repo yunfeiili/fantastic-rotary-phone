@@ -5,7 +5,7 @@ DB_CONFIG = {
     'host':'127.0.0.1',
     'user':'root',
     'password':'123456',
-    'database':'api_server',
+    'database':'api_db_sql',
     'port':3306,
     'charset':'utf8'
 }

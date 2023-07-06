@@ -6,6 +6,8 @@ import inspect
 from common.setting import ensure_path_sep
 import yaml
 
+from utils.logutil import logger
+
 
 def render(tpl_path, **kwargs):
     """渲染yml文件"""
@@ -29,8 +31,15 @@ def read_case_dataall(path):
     cases = yaml.safe_load(render(ensure_path_sep(path),**all_functions()))
     case_data=[]
     for case in cases:
-        if case.get('is_run') != False:
-            case_data.append(case)
+        try:
+            if case.get('is_run') != False:
+                if case["method"]:
+                    pass
+                    if case["path"]:
+                        pass
+                case_data.append(case)
+        except:
+            logger.error("该测试用例缺少请求方发或者是请求地址请仔细检查用例格式！！！")
     return case_data
 
 def read_case_data_name(path,YamlCaseName=None):
@@ -48,7 +57,7 @@ def read_case_data_name(path,YamlCaseName=None):
 
 
 # if __name__ == '__main__':
-#     a = read_case_dataall('\datas\logon.yaml')[0]
-#     YamlCaseName = a.get('case_name')
-#     q = read_case_data_name('\datas\logon.yaml',YamlCaseName='登录接口')
-#     print(q)
+#     a = read_case_dataall('\datas\logon.yaml')
+    # YamlCaseName = a.get('case_name')
+    # q = read_case_data_name('\datas\logon.yaml',YamlCaseName='登录接口')
+    # print(q)

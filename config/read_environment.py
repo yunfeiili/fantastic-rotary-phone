@@ -28,3 +28,6 @@ def get_host():
 def get_headers():
     return read_config()['headers']
 
+
+def get_Authorization():
+    return read_config()['headers']["Authorization"]

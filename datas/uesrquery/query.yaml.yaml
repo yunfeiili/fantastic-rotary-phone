@@ -1,0 +1,23 @@
+-
+  case_name: 用户查询接口
+  method: get
+  is_run:
+  path: /api/private/v1/users
+  data:
+    query:
+    pagenum: 1
+    pagesize: 10
+  result:
+    msg: 获取管理员列表成功
+
+-
+  case_name: 用户查询接口
+  method: get
+  is_run:
+  path: /api/private/v1/users
+  data:
+    query:
+    pagenum: 1
+    pagesize: 20
+  result:
+    msg: 获取管理员列表成功

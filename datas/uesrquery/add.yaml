@@ -1,0 +1,12 @@
+-
+  cacename: 添加用户接口
+  method: post
+  is_run:
+  path: /api/private/v1/users
+  data:
+    username: {{get_name()}}
+    password: 123456
+    email: {{get_email()}}
+    mobile: {{get_phone()}}
+  result:
+    msg: 创建成功

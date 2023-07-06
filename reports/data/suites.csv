@@ -1,3 +1,6 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Wed Mar 22 19:38:51 CST 2023","Wed Mar 22 19:38:51 CST 2023","90","test_case","test_login","Test_api_case3","","","test_login[case1]",""
-"passed","Wed Mar 22 19:38:51 CST 2023","Wed Mar 22 19:38:51 CST 2023","88","test_case","test_login","Test_api_case3","","","test_login[case0]",""
+"passed","Mon Jun 26 21:58:18 CST 2023","Mon Jun 26 21:58:18 CST 2023","90","test_case","test_login","Test_api_case3","","","test_login[case0]",""
+"passed","Mon Jun 26 21:58:18 CST 2023","Mon Jun 26 21:58:18 CST 2023","88","test_case.uesr_control_test","adduesr_test","Test_api_add","","","test_add[case0]",""
+"passed","Mon Jun 26 21:58:18 CST 2023","Mon Jun 26 21:58:18 CST 2023","8","test_case.uesr_control_test","query_test","Test_api_query","","","test_query[case0]",""
+"passed","Mon Jun 26 21:58:18 CST 2023","Mon Jun 26 21:58:18 CST 2023","7","test_case.uesr_control_test","query_test","Test_api_query","","","test_query_id[case0]",""
+"passed","Mon Jun 26 21:58:18 CST 2023","Mon Jun 26 21:58:18 CST 2023","9","test_case.uesr_control_test","query_test","Test_api_query","","","test_query[case1]",""
