@@ -7,7 +7,7 @@ import pytest
 
 from common.debug import get_response_text
 from common.read_case_data import read_case_dataall
-from test_case import Test
+from test_case import  Test
 from utils.asst import assert_tet
 
 

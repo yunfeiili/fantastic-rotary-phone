@@ -82,3 +82,4 @@ pyDes
 crypto
 redis
 pydantic
+pywinauto

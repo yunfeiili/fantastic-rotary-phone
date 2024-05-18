@@ -69,6 +69,7 @@ import os
 
 import jsonpath
 import requests
+# import pywinauto.keyboard
 from pywinauto.keyboard import send_keys  # 键盘
 
 def read_txt(path):
@@ -103,7 +104,7 @@ while True:
 
         # 进入微信，模拟按键Ctrl+F
         send_keys('^f')
-        send_keys('小号')
+        send_keys('苏萧')
         time.sleep(1)
         send_keys('{ENTER}')  # 回车键必须全部大小
         for i in range(10):
