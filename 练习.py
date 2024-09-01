@@ -7,7 +7,7 @@
 # headers= get_headers()
 # re = requests.get(url=url, params=params,headers=headers)
 # print(re.text)
-
+from utils.asst import assert_diff
 from utils.logutil import *
 
 
@@ -88,41 +88,52 @@ def get_txt():
 
 
 
-while True:
-    time_now = time.strftime("%H:%M", time.localtime())  # 获取当前时间
-    sent_time = time.strftime("14:04", time.localtime())  # 发送时间（这里自己定时间）
-    if time_now != sent_time:  # 当前时间等于发送时间则执行以下程序
-        def open_app(app_dir):
-            os.startfile(app_dir)
+# while True:
+#     time_now = time.strftime("%H:%M", time.localtime())  # 获取当前时间
+#     sent_time = time.strftime("14:04", time.localtime())  # 发送时间（这里自己定时间）
+#     if time_now != sent_time:  # 当前时间等于发送时间则执行以下程序
+#         def open_app(app_dir):
+#             os.startfile(app_dir)
+#
+#
+#         # 打开微信
+#         if __name__ == "__main__":
+#             app_dir = r'D:\WeChat\WeChat.exe'  # 此处为微信的绝对路径
+#             open_app(app_dir)
+#             time.sleep(1)
+#
+#         # 进入微信，模拟按键Ctrl+F
+#         send_keys('^f')
+#         send_keys('苏萧')
+#         time.sleep(1)
+#         send_keys('{ENTER}')  # 回车键必须全部大小
+#         for i in range(10):
+#         # 需要发送的消息内容
+#             message = get_txt()
+#             time.sleep(3)
+#             messages= "睡什么睡，起来嗨"
+#
+#         # 输入聊天内容
+#             send_keys(message + messages + ":/t" + str(i))
+#         # 回车发送消息
+#             send_keys('{ENTER}')
+#
+#         time.sleep(3)
+#
+#         print('退出~~~')
+#
+#         exit()  # 退出程序
+#     else:
+#         print("不在当前时间")
+#         exit()  # 退出程序
 
+from deepdiff import DeepDiff
 
-        # 打开微信
-        if __name__ == "__main__":
-            app_dir = r'D:\WeChat\WeChat.exe'  # 此处为微信的绝对路径
-            open_app(app_dir)
-            time.sleep(1)
-
-        # 进入微信，模拟按键Ctrl+F
-        send_keys('^f')
-        send_keys('苏萧')
-        time.sleep(1)
-        send_keys('{ENTER}')  # 回车键必须全部大小
-        for i in range(10):
-        # 需要发送的消息内容
-            message = get_txt()
-            time.sleep(1)
-
-        # 输入聊天内容
-            send_keys(message)
-        # 回车发送消息
-            send_keys('{ENTER}')
-
-        time.sleep(3)
-        print('退出~~~')
-
-        exit()  # 退出程序
-    else:
-        print("不在当前时间")
-        exit()  # 退出程序
-
-
+a = {"name": "yanan", "pro": {"sh": "shandong", "city": ["zibo", "weifang"]}, "type_": "20"}
+b = {"name": "changsha", "pro": {"sh": "shandong", "town": ["taian", "weifang"]}, "type_": 20}
+a1 = {"name": "yanan", "pro": {"sh": "shandong", "city": ["zibo", "weifang"]}, "type_": "20"}
+c = {"name": "yanan"}
+c1 = {"name": "yanan"}
+# 字典/json对比
+# print(DeepDiff(c,c1))
+print(assert_diff(a,b))

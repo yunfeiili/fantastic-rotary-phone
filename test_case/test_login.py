@@ -15,7 +15,7 @@ from utils.asst import assert_tet
 class Test_api_case3(Test):
 
 
-    @pytest.mark.parametrize('case',read_case_dataall('\datas\logon.yaml'))
+    @pytest.mark.parametrize('case',read_case_dataall(r'\datas\logon.yaml'))
     def test_login(self,case):
         re = self.sendRequests.send(method=case['method'],url=case['path'],data=case['data'])
         texts = get_response_text(re.text,'msg')
