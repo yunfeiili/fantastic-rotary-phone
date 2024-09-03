@@ -129,11 +129,63 @@ def get_txt():
 
 from deepdiff import DeepDiff
 
-a = {"name": "yanan", "pro": {"sh": "shandong", "city": ["zibo", "weifang"]}, "type_": "20"}
-b = {"name": "changsha", "pro": {"sh": "shandong", "town": ["taian", "weifang"]}, "type_": 20}
-a1 = {"name": "yanan", "pro": {"sh": "shandong", "city": ["zibo", "weifang"]}, "type_": "20"}
-c = {"name": "yanan"}
-c1 = {"name": "yanan"}
-# 字典/json对比
-# print(DeepDiff(c,c1))
-print(assert_diff(a,b))
+a = {
+    "data": {
+        "id": 500,
+        "rid": 0,
+        "username": "admin",
+        "mobile": "12345678",
+        "email": "adsfad@qq.com",
+        "token": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjUwMCwicmlkIjowLCJpYXQiOjE3MjUyODU3MzEsImV4cCI6MTcyNTM3MjEzMX0.Bb5CEbf5vGcxfZA3vxzamJfElPjtk0xRBsemeZ1GG5o"
+    },
+    "meta": {
+        "msg": "登录成功",
+        "status": 200
+    }
+}
+b = {
+    "data": {
+        "id": 500,
+        "rid": 0,
+        "username": "admin",
+        "mobile": "12345678",
+        "email": "adsfad@qq.com",
+        "token": "Be7arer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjUwMCwicmlkIjowLCJpYXQiOjE3MjUyODU3MzEsImV4cCI6MTcyNTM3MjEzMX0.Bb5CEbf5vGcxfZA3vxzamJfElPjtk0xRBsemeZ1GG5o"
+    },
+    "meta": {
+        "msg": "登录成功",
+        "status": 200
+    }
+}
+# a1 = {"name": "yanan", "pro": {"sh": "shandong", "city": ["zibo", "weifang"]}, "type_": "20"}
+# c = {"name": "yanan"}
+# c1 = {"name": "yanan"}
+# # 字典/json对比
+
+# print(assert_diff(a,b))
+# a = {'msg': '登录成功'}  #{'msg': '登录成功'}
+# list1 = [{'case_name': '登录接口', 'data': {'password': 123456, 'username': 'admin'}, 'is_run': None, 'method': 'post', 'path': '/api/private/v1/login', 'result': {'msg': '登录成功'}}, {'case_name': '登录接口112', 'data': {'password': 123456, 'username': 'admin'}, 'is_run': None, 'method': 'post', 'path': '/api/private/v1/login', 'result': {'msg': '登录成功1312312'}}]
+# print(list1)
+# for data in list1:
+#     data["result"] = a
+#     # print(data)
+# print(list1)
+
+
+t1 = {"for life": "vegan", "ingredients": ["no meat", "no eggs", "no dairy"]}
+t2 = {"for life": "vegan", "ingredients": ["veggies", "tofu", "soy sauce"]}
+
+# 指定ingredients这个路径不对比差异
+
+print(DeepDiff(a,b,exclude_paths="root['data']['token']"))
+# print(DeepDiff(t1,t2,exclude_paths= "root['ingredients']"))
+# print(DeepDiff(t1, t2, exclude_paths="root['ingredients']"))
+def asstr_1(rea,exp,xiao):
+   valus =  DeepDiff(rea,exp,exclude_paths=xiao)
+   return valus
+
+
+
+# 也可指定多个路径
+# print(DeepDiff(t1, t2, exclude_paths=["root['ingredients']","root['ingredients2']"]))
+print(asstr_1(a,b,"root['data']['token']"))

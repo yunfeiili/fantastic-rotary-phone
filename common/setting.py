@@ -5,11 +5,11 @@ DB_CONFIG = {
     'host':'127.0.0.1',
     'user':'root',
     'password':'123456',
-    'database':'api_db_sql',
+    'database':'api_server',
     'port':3306,
     'charset':'utf8'
 }
-Environment='test_environment'
+Environment= 'test_environment'
 
 project_path = os.path.dirname(os.path.dirname(__file__))
 

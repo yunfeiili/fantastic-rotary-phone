@@ -1,6 +1,6 @@
 test_environment:
   headers:
-    Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjUwMCwicmlkIjowLCJpYXQiOjE3MjQyMzczMTcsImV4cCI6MTcyNDMyMzcxN30.hROgM_GcewPxDy9ahnBLlfZa9Qiz3794jYG7orwAng8
+    Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjUwMCwicmlkIjowLCJpYXQiOjE3MjUzNzI5MzMsImV4cCI6MTcyNTQ1OTMzM30.2-wajLrHMnUuIqHaMCsyZqe1ORjHNVrM-VN2F9k8Gng
     Content-Type: null
     accept-language: zh-CN,zh;q=0.9
     user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,like
