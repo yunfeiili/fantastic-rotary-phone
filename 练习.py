@@ -189,3 +189,6 @@ def asstr_1(rea,exp,xiao):
 # 也可指定多个路径
 # print(DeepDiff(t1, t2, exclude_paths=["root['ingredients']","root['ingredients2']"]))
 print(asstr_1(a,b,"root['data']['token']"))
+
+
+print("SJDKSJJSDKSJ"))
