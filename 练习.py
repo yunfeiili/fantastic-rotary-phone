@@ -88,107 +88,46 @@ def get_txt():
 
 
 
-# while True:
-#     time_now = time.strftime("%H:%M", time.localtime())  # 获取当前时间
-#     sent_time = time.strftime("14:04", time.localtime())  # 发送时间（这里自己定时间）
-#     if time_now != sent_time:  # 当前时间等于发送时间则执行以下程序
-#         def open_app(app_dir):
-#             os.startfile(app_dir)
-#
-#
-#         # 打开微信
-#         if __name__ == "__main__":
-#             app_dir = r'D:\WeChat\WeChat.exe'  # 此处为微信的绝对路径
-#             open_app(app_dir)
-#             time.sleep(1)
-#
-#         # 进入微信，模拟按键Ctrl+F
-#         send_keys('^f')
-#         send_keys('苏萧')
-#         time.sleep(1)
-#         send_keys('{ENTER}')  # 回车键必须全部大小
-#         for i in range(10):
-#         # 需要发送的消息内容
-#             message = get_txt()
-#             time.sleep(3)
-#             messages= "睡什么睡，起来嗨"
-#
-#         # 输入聊天内容
-#             send_keys(message + messages + ":/t" + str(i))
-#         # 回车发送消息
-#             send_keys('{ENTER}')
-#
-#         time.sleep(3)
-#
-#         print('退出~~~')
-#
-#         exit()  # 退出程序
-#     else:
-#         print("不在当前时间")
-#         exit()  # 退出程序
-
-from deepdiff import DeepDiff
-
-a = {
-    "data": {
-        "id": 500,
-        "rid": 0,
-        "username": "admin",
-        "mobile": "12345678",
-        "email": "adsfad@qq.com",
-        "token": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjUwMCwicmlkIjowLCJpYXQiOjE3MjUyODU3MzEsImV4cCI6MTcyNTM3MjEzMX0.Bb5CEbf5vGcxfZA3vxzamJfElPjtk0xRBsemeZ1GG5o"
-    },
-    "meta": {
-        "msg": "登录成功",
-        "status": 200
-    }
-}
-b = {
-    "data": {
-        "id": 500,
-        "rid": 0,
-        "username": "admin",
-        "mobile": "12345678",
-        "email": "adsfad@qq.com",
-        "token": "Be7arer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjUwMCwicmlkIjowLCJpYXQiOjE3MjUyODU3MzEsImV4cCI6MTcyNTM3MjEzMX0.Bb5CEbf5vGcxfZA3vxzamJfElPjtk0xRBsemeZ1GG5o"
-    },
-    "meta": {
-        "msg": "登录成功",
-        "status": 200
-    }
-}
-# a1 = {"name": "yanan", "pro": {"sh": "shandong", "city": ["zibo", "weifang"]}, "type_": "20"}
-# c = {"name": "yanan"}
-# c1 = {"name": "yanan"}
-# # 字典/json对比
-
-# print(assert_diff(a,b))
-# a = {'msg': '登录成功'}  #{'msg': '登录成功'}
-# list1 = [{'case_name': '登录接口', 'data': {'password': 123456, 'username': 'admin'}, 'is_run': None, 'method': 'post', 'path': '/api/private/v1/login', 'result': {'msg': '登录成功'}}, {'case_name': '登录接口112', 'data': {'password': 123456, 'username': 'admin'}, 'is_run': None, 'method': 'post', 'path': '/api/private/v1/login', 'result': {'msg': '登录成功1312312'}}]
-# print(list1)
-# for data in list1:
-#     data["result"] = a
-#     # print(data)
-# print(list1)
+while True:
+    time_now = time.strftime("%H:%M", time.localtime())  # 获取当前时间
+    sent_time = time.strftime("14:04", time.localtime())  # 发送时间（这里自己定时间）
+    if time_now != sent_time:  # 当前时间等于发送时间则执行以下程序
+        def open_app(app_dir):
+            os.startfile(app_dir)
 
 
-t1 = {"for life": "vegan", "ingredients": ["no meat", "no eggs", "no dairy"]}
-t2 = {"for life": "vegan", "ingredients": ["veggies", "tofu", "soy sauce"]}
+        # 打开微信
+        if __name__ == "__main__":
+            app_dir = r'D:\WeChat\WeChat.exe'  # 此处为微信的绝对路径
+            open_app(app_dir)
+            time.sleep(1)
 
-# 指定ingredients这个路径不对比差异
+        # 进入微信，模拟按键Ctrl+F
+        send_keys('^f')
+        send_keys('玩泥巴大队黄班组')
+        time.sleep(1)
+        send_keys('{ENTER}')  # 回车键必须全部大小
+        for i in range(1):
+        # 需要发送的消息内容
+            message = get_txt()
+            time.sleep(3)
+            messages= "睡什么睡，起来嗨@嘉宝设计师黄俊"
 
-print(DeepDiff(a,b,exclude_paths="root['data']['token']"))
-# print(DeepDiff(t1,t2,exclude_paths= "root['ingredients']"))
-# print(DeepDiff(t1, t2, exclude_paths="root['ingredients']"))
-def asstr_1(rea,exp,xiao):
-   valus =  DeepDiff(rea,exp,exclude_paths=xiao)
-   return valus
+        # 输入聊天内容
+            send_keys(message + messages + ":/t" + str(i))
+        # 回车发送消息
+            send_keys('{ENTER}')
+
+        time.sleep(3)
+
+        print('退出~~~')
+
+        exit()  # 退出程序
+    else:
+        print("不在当前时间")
+        exit()  # 退出程序
 
 
 
-# 也可指定多个路径
-# print(DeepDiff(t1, t2, exclude_paths=["root['ingredients']","root['ingredients2']"]))
-print(asstr_1(a,b,"root['data']['token']"))
 
 
-print("SJDKSJJSDKSJ"))
