@@ -1,2 +1,2 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Tue Sep 03 22:15:33 CST 2024","Tue Sep 03 22:15:33 CST 2024","90","test_case","test_login","Test_api_case3","","","test_login[case0]",""
+"passed","Sun Sep 15 10:51:53 CST 2024","Sun Sep 15 10:51:53 CST 2024","93","test_case","test_login","Test_api_case3","","","test_login[case0]",""
