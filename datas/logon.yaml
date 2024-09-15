@@ -11,7 +11,7 @@
       id: 500
       mobile: '12345678'
       rid: 0
-      token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjUwMCwicmlkIjowLCJpYXQiOjE3MjUzNzI2MzcsImV4cCI6MTcyNTQ1OTAzN30.qFLGpgg0cpX5lMsv74rZ4JtcFsvjmiRI38GgbB2bUHc
+      token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjUwMCwicmlkIjowLCJpYXQiOjE3MjYzNjg2NzAsImV4cCI6MTcyNjQ1NTA3MH0.Nd1yzQx903T0ut2pjIhgXDupS82vkR3GOGSb6bg32BA
       username: admin
     meta:
       msg: 登录成功
