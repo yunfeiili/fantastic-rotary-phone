@@ -11,22 +11,21 @@ from utils.asst import assert_tet
 
 
 
-# class Test_api_query(Test):
-#
-#
-#     @pytest.mark.parametrize('case',read_case_dataall('/datas/uesrquery/query.yaml.yaml'))
-#     def test_query(self,case):
-#         re = self.sendRequests.send(method=case['method'],url=case['path'],params=case['data'])
-#         texts = get_response_text(re.text,'msg')
-#         assert_tet(case['result']['msg'],texts)
-#
-#
-#     @pytest.mark.parametrize('case',read_case_dataall('/datas/uesrquery/queryid.yaml'))
-#     def test_query_id(self,case):
-#         # logger.debug("这个用例的请求参数是{}".format(case))
-#         re = self.sendRequests.send(method=case['method'],url=case['path'],params=case['data'])
-#         texts = get_response_text(re.text,'msg')
-#         assert_tet(case['result']['msg'],texts)
+class Test_api_query(Test):
+
+
+    @pytest.mark.parametrize('case',read_case_dataall('/datas/uesrquery/query.yaml.yaml'))
+    def test_query(self,case):
+        re = self.sendRequests.send(method=case['method'],url=case['path'],params=case['data'])
+        texts = get_response_text(re.text,'msg')
+        assert_tet(case['result']['msg'],texts)
+
+
+    @pytest.mark.parametrize('case',read_case_dataall('/datas/uesrquery/queryid.yaml'))
+    def test_query_id(self,case):
+        re = self.sendRequests.send(method=case['method'],url=case['path'],params=case['data'])
+        texts = get_response_text(re.text,'msg')
+        assert_tet(case['result']['msg'],texts)
 
 
 
