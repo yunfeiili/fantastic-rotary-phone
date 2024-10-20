@@ -76,6 +76,8 @@ def read_txt(path):
     with open(path,mode="r",encoding="utf_8") as f:
         value = f.readlines()
         return random.choice(value)
+
+
 def get_txt():
 
     url = "https://v1.hitokoto.cn/"
@@ -104,14 +106,14 @@ while True:
 
         # 进入微信，模拟按键Ctrl+F
         send_keys('^f')
-        send_keys('玩泥巴大队黄班组')
+        send_keys('苏萧')
         time.sleep(1)
         send_keys('{ENTER}')  # 回车键必须全部大小
-        for i in range(1):
+        for i in range(3):
         # 需要发送的消息内容
             message = get_txt()
             time.sleep(3)
-            messages= "睡什么睡，起来嗨@嘉宝设计师黄俊"
+            messages= "睡什么睡，起来嗨"
 
         # 输入聊天内容
             send_keys(message + messages + ":/t" + str(i))
