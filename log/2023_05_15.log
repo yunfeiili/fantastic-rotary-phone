@@ -1,2 +1,0 @@
-2023-05-15 22:26:17,105 - mysqlutil.py[line:38 ] - ERROR: 查询所有数据失败失败原因可能是：(1049, "Unknown database 'api_server'") 
-2023-05-15 22:27:07,573 - mysqlutil.py[line:38 ] - ERROR: 查询所有数据失败失败原因可能是：(1049, "Unknown database 'api_server'") 

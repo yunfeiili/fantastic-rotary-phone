@@ -1,8 +1,9 @@
-import yagmail
+
 
 import zipfile
 import os
 
+import yagmail as yagmail
 
 
 class EmailServe:
