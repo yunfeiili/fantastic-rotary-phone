@@ -1,7 +1,0 @@
-INFO     logger:requestutil.py:27 请求的url是:http://127.0.0.1:8888/api/private/v1/login
-INFO     logger:requestutil.py:28 请求的headers是:{'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjUwMCwicmlkIjowLCJpYXQiOjE3MjY5OTY5MTksImV4cCI6MTcyNzA4MzMxOX0.41N9CjFlGOf9E4JO0-a9uYbsFlyQx6B3YScK7euChBQ', 'Content-Type': None, 'accept-language': 'zh-CN,zh;q=0.9', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,like Gecko) Chrome/104.0.0.0 Safari/537.36'}
-INFO     logger:requestutil.py:29 请求的数据是:{'password': 123456, 'username': 'admin'}
-DEBUG    logger:asst.py:26 1.实际数据是: {'data': {'email': 'adsfad@qq.com', 'id': 500, 'mobile': '12345678', 'rid': 0, 'token': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjUwMCwicmlkIjowLCJpYXQiOjE3MjYzNjg2NzAsImV4cCI6MTcyNjQ1NTA3MH0.Nd1yzQx903T0ut2pjIhgXDupS82vkR3GOGSb6bg32BA', 'username': 'admin'}, 'meta': {'msg': '登录成功', 'status': 200}}
-DEBUG    logger:asst.py:27 2.预期数据是: {'data': {'id': 500, 'rid': 0, 'username': 'admin', 'mobile': '12345678', 'email': 'adsfad@qq.com', 'token': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjUwMCwicmlkIjowLCJpYXQiOjE3MjY5OTY5MTksImV4cCI6MTcyNzA4MzMxOX0.41N9CjFlGOf9E4JO0-a9uYbsFlyQx6B3YScK7euChBQ'}, 'meta': {'msg': '登录成功', 'status': 200}}
-DEBUG    logger:asst.py:28 忽略字段校验路径是root['data']['token']
-DEBUG    logger:asst.py:9 断言成功: 登录成功 == 登录成功

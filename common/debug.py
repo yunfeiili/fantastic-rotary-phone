@@ -96,9 +96,21 @@ def get_userid():
     '''
     u_is = []
     for i in mysqlutil.getList(sql):
-        if i[0] !=500:
+        if i[0] ==502:
+            u_is.append(i[0])
+    a = random.choice(u_is)
+    return a
+
+def delete_userid():
+    '''
+    获取数据库中用户id
+    :return:
+    '''
+    u_is = []
+    for i in mysqlutil.getList(sql):
+        if i[0] !=500 and i[0] !=502:
             u_is.append(i[0])
     a = random.choice(u_is)
     return a
 if __name__ == '__main__':
-    print(get_userid())
+    print(delete_userid())

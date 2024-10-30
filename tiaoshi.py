@@ -2,6 +2,9 @@ import time
 
 import requests
 
+from utils.asst import assert_diff_Ignore_case, assert_diff
+from utils.mysqlutil import mysqlutil
+
 URL = "http://127.0.0.1:8888/api/private/v1/login"
 data = {
     "username": "admin",
@@ -17,9 +20,7 @@ headers = {
 # res = requests.post(url=URL,json = data)
 # print(res.json())
 # print(res.text)
-a = requests.request(method="post",url=URL,json = data)
-print(a.text)
-
-
+# a = requests.request(method="post",url=URL,json = data)
+# print(a.text)
 
 

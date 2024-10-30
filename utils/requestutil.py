@@ -14,9 +14,9 @@ class  SenApi():
         url = get_host() + path
         headers = get_headers()
         res = self.request.get(url=url,params=params,headers=headers)
-        logger.info('请求的url是:{}'.format(url))
-        logger.info('请求的headers是:{}'.format(headers))
-        logger.info('请求的数据是:{}'.format(params))
+        logger.info('请求的url是: {}'.format(url))
+        logger.info('请求的headers是: {}'.format(headers))
+        logger.info('请求的数据是: {}'.format(params))
         return res
 
 
@@ -24,9 +24,9 @@ class  SenApi():
         url = get_host() + path
         headers = get_headers()
         res = self.request.post(url=url, data=data, json=json, headers=headers)
-        logger.info('请求的url是:{}'.format(url))
-        logger.info('请求的headers是:{}'.format(headers))
-        logger.info('请求的数据是:{}'.format(data))
+        logger.info('请求的url是: {}'.format(url))
+        logger.info('请求的headers是: {}'.format(headers))
+        logger.info('请求的数据是: {}'.format(data))
         return res
 
     # 请求方法put
@@ -35,14 +35,14 @@ class  SenApi():
         headers = get_headers()
         if headers is not None:
             res = self.request.put(url, json=data, headers=headers)
-            logger.info('请求的url是:{}'.format(url))
-            logger.info('请求的headers是:{}'.format(headers))
-            logger.info('请求的数据是:{}'.format(data))
+            logger.info('请求的url是: {}'.format(url))
+            logger.info('请求的headers是: {}'.format(headers))
+            logger.info('请求的数据是: {}'.format(data))
         else:
             res = self.request.delete(url, json=data)
-            logger.info('请求的url是:{}'.format(url))
+            logger.info('请求的url是: {}'.format(url))
 
-            logger.info('请求的数据是:{}'.format(data))
+            logger.info('请求的数据是: {}'.format(data))
         return res
 
     # 请求方法delete
@@ -51,9 +51,9 @@ class  SenApi():
         headers = get_headers()
         if headers is not None:
             res = self.request.delete(url, json=data, headers=headers)
-            logger.info('请求的url是:{}'.format(url))
-            logger.info('请求的headers是:{}'.format(headers))
-            logger.info('请求的数据是:{}'.format(data))
+            logger.info('请求的url是: {}'.format(url))
+            logger.info('请求的headers是: {}'.format(headers))
+            logger.info('请求的数据是: {}'.format(data))
         else:
             res = self.request.delete(url, json=data)
             logger.info('请求的url是:{}'.format(url))

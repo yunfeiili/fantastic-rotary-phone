@@ -1,5 +1,5 @@
 -
-  cacename: 添加用户接口
+  case_name: 添加用户接口
   method: post
   is_run:
   path: /api/private/v1/users
