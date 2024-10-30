@@ -1,0 +1,9 @@
+-
+  case_name: 使用SQL语句准备数据用户查询接口
+  method: get
+  is_run:
+  path: /api/private/v1/users/2310
+  data:
+    id: 2310
+  result:
+    msg: 获取成功

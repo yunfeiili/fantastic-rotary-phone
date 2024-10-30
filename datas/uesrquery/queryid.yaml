@@ -1,5 +1,5 @@
 -
-  case_name: 用户查询接口
+  case_name: 更具函数获取已有的用户id查询数据
   method: get
   is_run:
   path: /api/private/v1/users/{{get_userid()}}

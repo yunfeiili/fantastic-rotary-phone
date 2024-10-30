@@ -5,6 +5,28 @@ from email.mime.text import MIMEText
 from email.mime.application import MIMEApplication
 import os
 
+text = """
+电子邮件的格式范文二：
+
+    您好，我是北京雅致人生管理顾问有限公司的王艳。很高兴能够认识您，并有幸将我们公司介绍给您。我们公司培训主要以素质技能技巧为主，曾经成功的为
+
+IBM/HP/SUMSUNG/微软、中海油、大唐移动、北京移动、信息产业部电信研究院服务过，欢迎您访问我们公司的网址：,对我们公司有更多的了解。
+
+附件是我们公司擅长的培训课程及讲师简历。请您查收。
+
+如有任何问题或者建议请您随时与我联系!
+
+希望我们能达成互补，在未来有合作的机会!
+
+感谢您对我工作的支持!
+
+祝您工作开心快乐!
+
+
+[玩泥巴大队黄班组][]
+
+日期：2024年10月21日
+"""
 # 配置邮箱服务器信息
 mail_host = "smtp.qq.com"  # 设置服务器
 mail_user = "1538699506@qq.com"  # 用户名
@@ -12,8 +34,7 @@ mail_pass = "hdceokoscmqegiee"  # 授权码
 
 # 配置发件人、收件人信息
 sender = '1538699506@qq.com'  # 发件人邮箱
-receivers = ['1720580941@qq.com','1979659277@qq.com',"1538699506@qq.com",
-             "2240399473@qq.com","2647055084@qq.com"]  # 收件人邮箱，可设置为多个邮箱
+receivers = ["liyunfei19981019@163.com",'1720580941@qq.com']  # 收件人邮箱，可设置为多个邮箱
 
 
 def message_config():
@@ -22,7 +43,8 @@ def message_config():
     :return: 消息对象
     """
     # 第三方 SMTP 服务
-    content = MIMEText('练习发送邮件无需关注')
+    # content = MIMEText('练习发送邮件无需关注')
+    content = MIMEText(text)
     message = MIMEMultipart()  # 多个MIME对象
     message.attach(content)  # 添加内容
     message['From'] = Header(mail_user)  # 发件人
