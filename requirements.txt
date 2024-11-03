@@ -83,3 +83,4 @@ crypto
 redis
 pydantic
 pywinauto
+DeepDiff

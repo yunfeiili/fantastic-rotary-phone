@@ -1,5 +1,5 @@
 
-
+from common.debug import *
 import openpyxl
 from utils.logutil import logger
 class ReadExcel():
@@ -79,10 +79,21 @@ class ReadExcel():
 
 
 
-# data = [["万股",22,908,45112]]
-# write_xlsx_excel_add("./datas/excel/ceshi.xlsx","测试",data)
+datas = [["万股",22,908,45112]]
+biaotu = [["姓名","电话号码","电子邮件"]]
+shuju = [
+    [get_name(),get_phone(),get_email()]
+]
 read_excel = ReadExcel()
-data = read_excel.read_xlsx_excel("./datas/excel/ceshi.xlsx","测试")
+# data = read_excel.read_xlsx_excel("./datas/excel/ceshi.xlsx","测试")
+# read_excel.write_xlsx_excel("./datas/excel/ceshisjiku.xlsx","xiaoy",biaotu)
+for i in range(1000):
+    shuju = [
+        [get_name(), get_phone(), get_email()]
+    ]
+    read_excel.write_xlsx_excel_add("./datas/excel/ceshisjiku.xlsx","xiaoy",shuju)
+
+
 # print(data)
 #
 # for i in data:
