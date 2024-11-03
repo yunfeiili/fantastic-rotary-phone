@@ -17,7 +17,7 @@ def read_yaml(flie_path):
     return value
 
 
-def write_yaml( path,**data):
+def write_yaml(path,data):
     '''
     写入文件内容
     :param data:

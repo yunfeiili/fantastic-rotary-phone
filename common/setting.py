@@ -11,6 +11,9 @@ DB_CONFIG = {
 }
 Environment= 'test_environment'
 
+Environment_pre = "pre_environment"
+
+
 project_path = os.path.dirname(os.path.dirname(__file__))
 
 def ensure_path_sep(path: Text) -> Text:

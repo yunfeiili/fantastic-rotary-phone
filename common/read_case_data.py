@@ -39,7 +39,7 @@ def read_case_dataall(path):
                         pass
                 case_data.append(case)
         except:
-            logger.error("该测试用例缺少请求方发或者是请求地址请仔细检查用例格式！！！")
+            logger.error("该测试用例缺少请求方发或者是请求地址请仔细检查用例格式！！！可以在CaceTemplate.write_cacetemplate_yaml中生产用例模板")
     return case_data
 
 def read_case_data_name(path,YamlCaseName=None):

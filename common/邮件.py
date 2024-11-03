@@ -16,7 +16,7 @@ class EmailServe:
         :param out_path: 压缩文件保存路径+xxxx.zip
         :return: 无
         """
-        #file_path = f"{file_path}/test_report"
+        # file_path = f"{file_path}/test_report"
         zip = zipfile.ZipFile(out_path, "w", zipfile.ZIP_DEFLATED)
         for path, dirnames, filenames in os.walk(file_path):
             # 去掉目标跟路径，只对目标文件夹下边的文件及文件夹进行压缩
@@ -71,12 +71,14 @@ class EmailServe:
 
 
 # if __name__ == '__main__':
-#     EmailServe.zip_report('../reports', '../reports.zip')
+#     EmailServe.zip_report('../datas', '../reports.zip')
 #     file_path='../reports.zip'
 #     from common.read_file import ReadFile
-#
-# # setting = ReadFile.read_config('$.email')
+# #
+# #     # setting = ReadFile.read_config('$.email')
 #     setting = ReadFile.get_config_dict()['email']
+
+#     # print(setting)
 #
 #
 #     EmailServe.send_email(setting,file_path)
