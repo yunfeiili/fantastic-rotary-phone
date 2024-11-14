@@ -1,0 +1,9 @@
+- case_name: 用例名称
+  data:
+    参数1: 2310
+    参数2: value
+  is_run: true
+  method: 接口请求方法
+  path: 接口请求路径
+  result:
+    msg: 校验接口数据，做断言使用

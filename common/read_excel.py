@@ -87,7 +87,7 @@ shuju = [
 read_excel = ReadExcel()
 # data = read_excel.read_xlsx_excel("./datas/excel/ceshi.xlsx","测试")
 # read_excel.write_xlsx_excel("./datas/excel/ceshisjiku.xlsx","xiaoy",biaotu)
-for i in range(1000):
+for i in range(100):
     shuju = [
         [get_name(), get_phone(), get_email()]
     ]

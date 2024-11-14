@@ -1,0 +1,42 @@
+2024-10-30 20:12:36,054 - test_login.py[line:22 ] - INFO: 请求的用例名称是: 登录接口 
+2024-10-30 20:12:36,142 - requestutil.py[line:27 ] - INFO: 请求的url是: http://127.0.0.1:8888/api/private/v1/login 
+2024-10-30 20:12:36,142 - requestutil.py[line:28 ] - INFO: 请求的headers是: {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjUwMCwicmlkIjowLCJpYXQiOjE3MzAyOTAzNTYsImV4cCI6MTczMDM3Njc1Nn0.MgGQti5XEFS0iyDjtjG0v-VmD3a5haae6sZD0_SGg3s', 'Content-Type': None, 'accept-language': 'zh-CN,zh;q=0.9', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,like Gecko) Chrome/104.0.0.0 Safari/537.36'} 
+2024-10-30 20:12:36,143 - requestutil.py[line:29 ] - INFO: 请求的数据是: {'password': 123456, 'username': 'admin'} 
+2024-10-30 20:12:36,147 - asst.py[line:28 ] - DEBUG: 1.实际数据是: {'data': {'email': 'adsfad@qq.com', 'id': 500, 'mobile': '12345678', 'rid': 0, 'token': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjUwMCwicmlkIjowLCJpYXQiOjE3MjYzNjg2NzAsImV4cCI6MTcyNjQ1NTA3MH0.Nd1yzQx903T0ut2pjIhgXDupS82vkR3GOGSb6bg32BA', 'username': 'admin'}, 'meta': {'msg': '登录成功', 'status': 200}} 
+2024-10-30 20:12:36,147 - asst.py[line:29 ] - DEBUG: 2.预期数据是: {'data': {'id': 500, 'rid': 0, 'username': 'admin', 'mobile': '12345678', 'email': 'adsfad@qq.com', 'token': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjUwMCwicmlkIjowLCJpYXQiOjE3MzAyOTAzNTYsImV4cCI6MTczMDM3Njc1Nn0.MgGQti5XEFS0iyDjtjG0v-VmD3a5haae6sZD0_SGg3s'}, 'meta': {'msg': '登录成功', 'status': 200}} 
+2024-10-30 20:12:36,147 - asst.py[line:30 ] - DEBUG: 忽略字段校验路径是root['data']['token'] 
+2024-10-30 20:12:36,148 - asst.py[line:9 ] - DEBUG: 断言成功: 登录成功 == 登录成功 
+2024-10-30 20:12:36,154 - adduesr_test.py[line:21 ] - INFO: 请求的用例名称是: 添加用户接口 
+2024-10-30 20:12:36,246 - requestutil.py[line:27 ] - INFO: 请求的url是: http://127.0.0.1:8888/api/private/v1/users 
+2024-10-30 20:12:36,246 - requestutil.py[line:28 ] - INFO: 请求的headers是: {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjUwMCwicmlkIjowLCJpYXQiOjE3MzAyOTAzNTYsImV4cCI6MTczMDM3Njc1Nn0.MgGQti5XEFS0iyDjtjG0v-VmD3a5haae6sZD0_SGg3s', 'Content-Type': None, 'accept-language': 'zh-CN,zh;q=0.9', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,like Gecko) Chrome/104.0.0.0 Safari/537.36'} 
+2024-10-30 20:12:36,246 - requestutil.py[line:29 ] - INFO: 请求的数据是: {'username': '钟杰', 'password': 123456, 'email': 'gxia@example.com', 'mobile': 13516843753} 
+2024-10-30 20:12:36,247 - asst.py[line:9 ] - DEBUG: 断言成功: 创建成功 == 创建成功 
+2024-10-30 20:12:36,283 - mysqlutil.py[line:77 ] - DEBUG: 删除的数据SQL是: 
+DELETE FROM sp_manager WHERE mg_id = %s
+，删除的条件是: (2330,) 
+2024-10-30 20:12:36,289 - query_test.py[line:20 ] - INFO: 请求的用例名称是: 用户查询接口，每次查询10条数据 
+2024-10-30 20:12:36,298 - requestutil.py[line:17 ] - INFO: 请求的url是: http://127.0.0.1:8888/api/private/v1/users 
+2024-10-30 20:12:36,298 - requestutil.py[line:18 ] - INFO: 请求的headers是: {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjUwMCwicmlkIjowLCJpYXQiOjE3MzAyOTAzNTYsImV4cCI6MTczMDM3Njc1Nn0.MgGQti5XEFS0iyDjtjG0v-VmD3a5haae6sZD0_SGg3s', 'Content-Type': None, 'accept-language': 'zh-CN,zh;q=0.9', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,like Gecko) Chrome/104.0.0.0 Safari/537.36'} 
+2024-10-30 20:12:36,298 - requestutil.py[line:19 ] - INFO: 请求的数据是: {'query': None, 'pagenum': 1, 'pagesize': 10} 
+  2024-10-30 20:12:36,304 - query_test.py[line:20 ] - INFO: 请求的用例名称是: 用户查询接口2，每次查询20条数据
+2024-10-30 20:12:36,311 - requestutil.py[line:17 ] - INFO: 请求的url是: http://127.0.0.1:8888/api/private/v1/users 
+2024-10-30 20:12:36,311 - requestutil.py[line:18 ] - INFO: 请求的headers是: {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjUwMCwicmlkIjowLCJpYXQiOjE3MzAyOTAzNTYsImV4cCI6MTczMDM3Njc1Nn0.MgGQti5XEFS0iyDjtjG0v-VmD3a5haae6sZD0_SGg3s', 'Content-Type': None, 'accept-language': 'zh-CN,zh;q=0.9', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,like Gecko) Chrome/104.0.0.0 Safari/537.36'} 
+2024-10-30 20:12:36,311 - requestutil.py[line:19 ] - INFO: 请求的数据是: {'query': None, 'pagenum': 1, 'pagesize': 20} 
+2024-10-30 20:12:36,312 - asst.py[line:9 ] - DEBUG: 断言成功: 获取管理员列表成功 == 获取管理员列表成功 
+2024-10-30 20:12:36,316 - query_test.py[line:28 ] - INFO: 请求的用例名称是: 更具函数获取已有的用户id查询数据 
+2024-10-30 20:12:36,323 - requestutil.py[line:17 ] - INFO: 请求的url是: http://127.0.0.1:8888/api/private/v1/users/502 
+2024-10-30 20:12:36,324 - requestutil.py[line:18 ] - INFO: 请求的headers是: {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjUwMCwicmlkIjowLCJpYXQiOjE3MzAyOTAzNTYsImV4cCI6MTczMDM3Njc1Nn0.MgGQti5XEFS0iyDjtjG0v-VmD3a5haae6sZD0_SGg3s', 'Content-Type': None, 'accept-language': 'zh-CN,zh;q=0.9', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,like Gecko) Chrome/104.0.0.0 Safari/537.36'} 
+2024-10-30 20:12:36,324 - requestutil.py[line:19 ] - INFO: 请求的数据是: {'id': 502} 
+2024-10-30 20:12:36,324 - asst.py[line:9 ] - DEBUG: 断言成功: 获取成功 == 获取成功 
+2024-10-30 20:12:36,329 - query_test.py[line:36 ] - INFO: 请求的用例名称是: 使用SQL语句准备数据用户查询接口 
+2024-10-30 20:12:36,332 - mysqlutil.py[line:48 ] - INFO: 插入的数据是: 
+INSERT INTO `sp_manager` (`mg_id`,`mg_name`, `mg_pwd`, `mg_mobile`, `mg_email`, `mg_time`, `role_id`, `mg_state`) VALUES
+  (2310,'谢玉兰', '123456789', '18032040387', 'yong45@example.com', 1729928045, -1, NULL)
+ 
+2024-10-30 20:12:36,340 - requestutil.py[line:17 ] - INFO: 请求的url是: http://127.0.0.1:8888/api/private/v1/users/2310 
+2024-10-30 20:12:36,340 - requestutil.py[line:18 ] - INFO: 请求的headers是: {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjUwMCwicmlkIjowLCJpYXQiOjE3MzAyOTAzNTYsImV4cCI6MTczMDM3Njc1Nn0.MgGQti5XEFS0iyDjtjG0v-VmD3a5haae6sZD0_SGg3s', 'Content-Type': None, 'accept-language': 'zh-CN,zh;q=0.9', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,like Gecko) Chrome/104.0.0.0 Safari/537.36'} 
+2024-10-30 20:12:36,340 - requestutil.py[line:19 ] - INFO: 请求的数据是: {'id': 2310} 
+2024-10-30 20:12:36,362 - mysqlutil.py[line:93 ] - DEBUG: 删除的数据SQL是: 
+DELETE FROM sp_manager WHERE mg_id = 2310
+ 
+2024-10-30 20:12:36,362 - asst.py[line:9 ] - DEBUG: 断言成功: 获取成功 == 获取成功 

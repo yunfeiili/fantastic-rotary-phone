@@ -112,5 +112,5 @@ def delete_userid():
             u_is.append(i[0])
     a = random.choice(u_is)
     return a
-if __name__ == '__main__':
-    print(delete_userid())
+# if __name__ == '__main__':
+#     print(delete_userid())
