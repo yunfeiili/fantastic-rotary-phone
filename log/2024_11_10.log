@@ -1,0 +1,53 @@
+2024-11-10 19:21:57,453 - query_test.py[line:41 ] - INFO: 请求的用例名称是: 使用SQL语句准备数据用户查询接口 
+2024-11-10 19:21:57,476 - mysqlutil.py[line:54 ] - INFO: 插入的数据是: 
+INSERT INTO `sp_manager` (`mg_id`,`mg_name`, `mg_pwd`, `mg_mobile`, `mg_email`, `mg_time`, `role_id`, `mg_state`) VALUES
+  (2310,'谢玉兰', '123456789', '18032040387', 'yong45@example.com', 1729928045, -1, NULL)
+,对应的值是: () 
+2024-11-10 19:21:57,486 - requestutil.py[line:17 ] - INFO: 请求的url是: http://127.0.0.1:8888/api/private/v1/users/2310 
+2024-11-10 19:21:57,486 - requestutil.py[line:18 ] - INFO: 请求的headers是: {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjUwMCwicmlkIjowLCJpYXQiOjE3MzEyMzc3MTcsImV4cCI6MTczMTMyNDExN30.GO6LqNTIGlfJdnm2t9pu2qbR2eu7Ks3nXgzKUZtr1Y0', 'Content-Type': None, 'accept-language': 'zh-CN,zh;q=0.9', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,like Gecko) Chrome/104.0.0.0 Safari/537.36'} 
+2024-11-10 19:21:57,487 - requestutil.py[line:19 ] - INFO: 请求的数据是: {'id': 2310} 
+2024-11-10 19:22:20,533 - query_test.py[line:41 ] - INFO: 请求的用例名称是: 使用SQL语句准备数据用户查询接口 
+2024-11-10 19:22:20,558 - mysqlutil.py[line:56 ] - ERROR: 数据插入失败的原因可能是：(1062, "Duplicate entry '2310' for key 'PRIMARY'") 
+2024-11-10 19:22:20,568 - requestutil.py[line:17 ] - INFO: 请求的url是: http://127.0.0.1:8888/api/private/v1/users/2310 
+2024-11-10 19:22:20,568 - requestutil.py[line:18 ] - INFO: 请求的headers是: {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjUwMCwicmlkIjowLCJpYXQiOjE3MzEyMzc3NDAsImV4cCI6MTczMTMyNDE0MH0.n_y3iXv9cDDrmbnFDFK5zOtxv1gkGZBHzjFLz11OsiY', 'Content-Type': None, 'accept-language': 'zh-CN,zh;q=0.9', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,like Gecko) Chrome/104.0.0.0 Safari/537.36'} 
+2024-11-10 19:22:20,569 - requestutil.py[line:19 ] - INFO: 请求的数据是: {'id': 2310} 
+2024-11-10 19:23:26,276 - query_test.py[line:41 ] - INFO: 请求的用例名称是: 使用SQL语句准备数据用户查询接口 
+2024-11-10 19:23:26,282 - mysqlutil.py[line:54 ] - INFO: 插入的数据是: 
+INSERT INTO `sp_manager` (`mg_id`,`mg_name`, `mg_pwd`, `mg_mobile`, `mg_email`, `mg_time`, `role_id`, `mg_state`) VALUES
+  (2310,'谢玉兰', '123456789', '18032040387', 'yong45@example.com', 1729928045, -1, NULL)
+,对应的值是: () 
+2024-11-10 19:23:26,291 - requestutil.py[line:17 ] - INFO: 请求的url是: http://127.0.0.1:8888/api/private/v1/users/2310 
+2024-11-10 19:23:26,291 - requestutil.py[line:18 ] - INFO: 请求的headers是: {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjUwMCwicmlkIjowLCJpYXQiOjE3MzEyMzc4MDYsImV4cCI6MTczMTMyNDIwNn0.ZqTlkVZ4UQi6JeGBwYeiwA3B5oR1ycZHZmb3CVVaUCA', 'Content-Type': None, 'accept-language': 'zh-CN,zh;q=0.9', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,like Gecko) Chrome/104.0.0.0 Safari/537.36'} 
+2024-11-10 19:23:26,291 - requestutil.py[line:19 ] - INFO: 请求的数据是: {'id': 2310} 
+2024-11-10 19:24:26,380 - query_test.py[line:41 ] - INFO: 请求的用例名称是: 使用SQL语句准备数据用户查询接口 
+2024-11-10 19:24:26,404 - mysqlutil.py[line:56 ] - ERROR: 数据插入失败的原因可能是：(1062, "Duplicate entry '2310' for key 'PRIMARY'") 
+2024-11-10 19:24:26,413 - requestutil.py[line:17 ] - INFO: 请求的url是: http://127.0.0.1:8888/api/private/v1/users/2310 
+2024-11-10 19:24:26,414 - requestutil.py[line:18 ] - INFO: 请求的headers是: {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjUwMCwicmlkIjowLCJpYXQiOjE3MzEyMzc4NjYsImV4cCI6MTczMTMyNDI2Nn0.pxoFN22OOQwZU0K3iBomKn_gTJurHr-Kft_fOBHi-8Q', 'Content-Type': None, 'accept-language': 'zh-CN,zh;q=0.9', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,like Gecko) Chrome/104.0.0.0 Safari/537.36'} 
+2024-11-10 19:24:26,414 - requestutil.py[line:19 ] - INFO: 请求的数据是: {'id': 2310} 
+2024-11-10 19:24:26,440 - mysqlutil.py[line:115 ] - DEBUG: 删除的数据SQL是: 
+DELETE FROM sp_manager WHERE mg_id = 2310
+ 
+2024-11-10 19:24:26,441 - asst.py[line:9 ] - DEBUG: 断言成功: 获取成功 == 获取成功 
+2024-11-10 19:25:29,855 - query_test.py[line:41 ] - INFO: 请求的用例名称是: 使用SQL语句准备数据用户查询接口 
+2024-11-10 19:25:29,881 - mysqlutil.py[line:54 ] - INFO: 插入的数据是: 
+INSERT INTO `sp_manager` (`mg_id`,`mg_name`, `mg_pwd`, `mg_mobile`, `mg_email`, `mg_time`, `role_id`, `mg_state`) VALUES
+  (2310,'谢玉兰', '123456789', '18032040387', 'yong45@example.com', 1729928045, -1, NULL)
+,对应的值是: () 
+2024-11-10 19:25:29,891 - requestutil.py[line:17 ] - INFO: 请求的url是: http://127.0.0.1:8888/api/private/v1/users/2310 
+2024-11-10 19:25:29,891 - requestutil.py[line:18 ] - INFO: 请求的headers是: {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjUwMCwicmlkIjowLCJpYXQiOjE3MzEyMzc5MjksImV4cCI6MTczMTMyNDMyOX0.xmwAMXfGiSWo9O8EB-NeMj1y6OySuNRjnObHJbziJ0U', 'Content-Type': None, 'accept-language': 'zh-CN,zh;q=0.9', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,like Gecko) Chrome/104.0.0.0 Safari/537.36'} 
+2024-11-10 19:25:29,891 - requestutil.py[line:19 ] - INFO: 请求的数据是: {'id': 2310} 
+2024-11-10 19:25:29,914 - mysqlutil.py[line:115 ] - DEBUG: 删除的数据SQL是: 
+DELETE FROM sp_manager WHERE mg_id = 2310
+ 
+2024-11-10 19:26:52,466 - query_test.py[line:41 ] - INFO: 请求的用例名称是: 使用SQL语句准备数据用户查询接口 
+2024-11-10 19:26:52,469 - mysqlutil.py[line:54 ] - INFO: 插入的数据是: 
+INSERT INTO `sp_manager` (`mg_id`,`mg_name`, `mg_pwd`, `mg_mobile`, `mg_email`, `mg_time`, `role_id`, `mg_state`) VALUES
+  (2310,'谢玉兰', '123456789', '18032040387', 'yong45@example.com', 1729928045, -1, NULL)
+,对应的值是: () 
+2024-11-10 19:26:52,478 - requestutil.py[line:17 ] - INFO: 请求的url是: http://127.0.0.1:8888/api/private/v1/users/2310 
+2024-11-10 19:26:52,478 - requestutil.py[line:18 ] - INFO: 请求的headers是: {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjUwMCwicmlkIjowLCJpYXQiOjE3MzEyMzgwMTIsImV4cCI6MTczMTMyNDQxMn0.J8TVsj7lemaJZfOWT73dv53TqLipgyu0d2OcC0-_99Y', 'Content-Type': None, 'accept-language': 'zh-CN,zh;q=0.9', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,like Gecko) Chrome/104.0.0.0 Safari/537.36'} 
+2024-11-10 19:26:52,478 - requestutil.py[line:19 ] - INFO: 请求的数据是: {'id': 2310} 
+2024-11-10 19:26:52,497 - mysqlutil.py[line:115 ] - DEBUG: 删除的数据SQL是: 
+DELETE FROM sp_manager WHERE mg_id = 2310
+ 
+2024-11-10 19:26:52,497 - asst.py[line:9 ] - DEBUG: 断言成功: 获取成功 == 获取成功 

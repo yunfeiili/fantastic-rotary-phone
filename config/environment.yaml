@@ -8,7 +8,7 @@ pre_environment:
   host: "\u9884\u53D1\u73AF\u5883Bearerhttp://127.0.0.1:8888"
 test_environment:
   headers:
-    Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjUwMCwicmlkIjowLCJpYXQiOjE3MzA0NzU3MjUsImV4cCI6MTczMDU2MjEyNX0.gp0hezEkUe0LL3L3iFc0xbRhyI09-BD-mZ0ou2mGsV0
+    Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjUwMCwicmlkIjowLCJpYXQiOjE3MzE1MDYxMzcsImV4cCI6MTczMTU5MjUzN30.vOrdLs6aT_07ljqr36ZrsHaeS-sFRh6UJ__EXkB27ts
     Content-Type: null
     accept-language: zh-CN,zh;q=0.9
     user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,like

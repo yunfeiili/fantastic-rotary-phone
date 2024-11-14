@@ -1,7 +1,7 @@
 
 
 
-import pytest
+import pytest,allure
 
 from common.debug import get_response_text
 from common.operator_yaml import delete_userid
@@ -12,7 +12,7 @@ from utils.asst import assert_tet
 from utils.logutil import logger
 from utils.mysqlutil import mysqlutil
 
-
+@allure.parent_suite("添加数据")
 class Test_api_add(Test):
 
 

@@ -3,7 +3,7 @@
 
 
 
-import pytest
+import pytest,allure
 from utils.logutil import *
 from common.write_case_result_data import wr
 
@@ -14,6 +14,12 @@ from utils.asst import assert_tet, assert_diff
 
 paths = r'\datas\logon.yaml'
 
+
+
+
+
+
+@allure.parent_suite("登录模块")
 class Test_api_case3(Test):
 
 
