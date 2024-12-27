@@ -1,7 +1,8 @@
 import random
 
-import yaml
+import yaml,json
 
+from common.setting import *
 from utils.mysqlutil import mysqlutil, sql
 
 
@@ -54,7 +55,15 @@ def delete_userid():
     return a
 
 
+
+# def read_json(key):
+#     try:
+#         with open(ensure_path_sep("\datas\sqlshuju\sqldata.json"), 'r', encoding="utf-8") as f:
+#             shuju = json.loads(f.read())
+#             print(shuju.get(key,"没有获取到数据，请检查查询的key"))
+#     except Exception as e:
+#         print(e)
+#
 # if __name__ == '__main__':
-#     sqlss = "DELETE FROM sp_manager WHERE mg_id = %s"
-#     print(delete_userid())
-#     mysqlutil.delete(sqlss,(delete_userid()))
+#
+#     read_json("query_id")
