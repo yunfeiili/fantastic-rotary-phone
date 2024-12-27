@@ -16,6 +16,15 @@ from utils.mysqlutil import mysqlutil
 @allure.parent_suite("查询数据")
 class Test_api_query(Test):
 
+    # def setup_module(self):
+    #     mysqlutil.insert(query_id)
+    #
+    #
+    #
+    # def teardown_module(self):
+    #     mysqlutil.delete_one(delete_id)
+
+
     @allure.suite("查询返回多条数据")
     # @allure.sub_suite("更具条件返回对应数据")
     @pytest.mark.parametrize('case',read_case_dataall('/datas/uesrquery/query.yaml.yaml'))
