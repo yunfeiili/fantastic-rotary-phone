@@ -57,7 +57,8 @@ def read_case_data_name(path,YamlCaseName=None):
 
 
 # if __name__ == '__main__':
-#     a = read_case_dataall('\datas\logon.yaml')
-    # YamlCaseName = a.get('case_name')
-    # q = read_case_data_name('\datas\logon.yaml',YamlCaseName='登录接口')
-    # print(q)
+#     a = read_case_dataall(r'\datas\logon.yaml')
+#     for case in a:
+#         print(case.get('case_name'))
+#     # q = read_case_data_name(r'\datas\logon.yaml',YamlCaseName='登录接口')
+#     print(a)
