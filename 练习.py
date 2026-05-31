@@ -100,7 +100,7 @@ while True:
 
         # 打开微信
         if __name__ == "__main__":
-            app_dir = r'D:\WeChat\WeChat.exe'  # 此处为微信的绝对路径
+            app_dir = r'D:\weixintencent\Weixin\Weixin.exe'  # 此处为微信的绝对路径
             open_app(app_dir)
             time.sleep(1)
 
@@ -121,6 +121,7 @@ while True:
             send_keys('{ENTER}')
 
         time.sleep(3)
+
 
         print('退出~~~')
 
