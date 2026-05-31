@@ -1,18 +1,6 @@
-# import requests
-#
-# from config.read_environment import *
-#
-# url = "http://127.0.0.1:8888/api/private/v1/users/500"
-# params = {'id': None}
-# headers= get_headers()
-# re = requests.get(url=url, params=params,headers=headers)
-# print(re.text)
-from utils.asst import assert_diff
+
 from utils.logutil import *
 
-
-
-import os
 import jinja2
 import importlib
 import inspect
